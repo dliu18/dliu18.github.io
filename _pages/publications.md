@@ -38,4 +38,4 @@ For three years, I wrote for the sports section of the Daily Princetonian. Durin
 ### Sample Daily Princetonian Sports Section 
 
 <div data-configid="0/37733750" style="width:650px; height:658px;" class="issuuembed"></div>
-<script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script>
+<script type="text/javascript" src="https://e.issuu.com/embed.js" async="true"></script>
