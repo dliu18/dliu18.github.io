@@ -1,106 +1,150 @@
 % LaTeX file for resume
 % This file uses the resume document class (res.cls)
 \documentclass[margin]{res} 
-
 \usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue
+    }
 % the margin option causes section titles to appear to the left of body text 
 \textwidth=5.0in % increase textwidth to get smaller right margin
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\lfoot{David Liu}
+\rfoot{May 2021}
 
 \begin{document} 
 
 \name{David Mingfei Liu\\ \hline} % the \\[12pt] adds a blank line after name 
+%\address{liu.davi@northeastern.edu}
+%\address{571-528-3466}
+%\address{dliu18.github.io}
 
 \begin{resume} 
-\hspace*{-\hoffset}dml3@alumni.princeton.edu \hfill Cell: (571)-528-3466 \\
 
 %\section{Objective} Research internship in the areas of mobile computing/networking. 
  
 %\section{Objective} 
 %Graduate studies (PhD) at the University of Illinois at Urbana-Champaign in the field of Computer Science in the area of networked systems.
+\begin{itemize}\itemsep -1pt  % reduce space between items
+\section{Contact Information}
+\item[] 177 Huntington Ave. Boston, MA 02115
+\item[] E-mail: liu.davi@northeastern.edu
+\item[] Mobile: (571)-528-3466
+\item[] Personal Website: \href{https://dliu18.github.io}{dliu18.github.io}
+\end{itemize}
 
 \begin{itemize}
 \section{Education} 
+\item[]
+\textbf{Northeastern University} (2020 - Present)\\
+Ph.D. Student, Computer Science Department and Network Science Institute\\
+Advisor: Professor Tina Eliassi-Rad\\
+Focus areas: Fairness in Machine Learning, Computational Social Science, and Computational Reproducibility.
 
-\item
-\textbf{Princeton University\\}
+\item[]
+\textbf{Princeton University} (2018)\\
 B.S.E in Computer Science with Certificate in Statistics and Machine Learning\\
-\emph{summa cum laude} (2018)\\ 
-Coursework includes: Probability and Stochastic Systems, Machine Learning and AI, Neural Networks, Analysis of Big Data, Social Networks, Fairness in Machine Learning, Applied Social Statistics, Applications in Econometrics.
-\item
-\textbf{Thomas Jefferson High School for Science and Technology} (2014)
+Graduated \emph{summa cum laude}\\
+Undergraduate Advisor: Professor Matthew J. Salganik 
 \end{itemize}
 
-\begin{itemize} \itemsep -1pt  % reduce space between items
-\section{Preprints}
-\item
-Liu, David, and Matthew Salganik. 2019. “Successes and Struggles with Computational Reproducibility: Lessons from the Fragile Families Challenge.” SocArXiv. March 15. \url{doi:10.31235/osf.io/g3pdb}. \\
-To appear in a special issue of \emph{Socius} about the Fragile Families Challenge
-
-\section{Projects}
-\item
-{\bf Analyzing language trends in post-secondary FERPA notices} \\
-\emph{Advisor: Arvind Narayanan} \emph{Feb 2017 - Jun 2017}\\
-Scraped education policy documents from the web and used SVM classification to isolate FERPA notices. Data used to survey the current state of education policy compliance.\\
-\url{https://github.com/dliu18/papers/blob/master/legal_nlp.pdf}\\
-
-\item
-{\bf Sentiment analysis of archived collegiate newspaper headlines}\\
-\emph{Advisor: Brian Kernighan} \emph{Sep 2016 - Jan 2017}\\
-Created an interactive, public n-gram viewer based on the electronic archives of Princeton's student-run campus newspaper. \\
-\url{https://github.com/dliu18/papers/blob/master/digital_humanities.pdf}
+\begin{itemize}
+\section{Publications}
+\item[] 
+\textbf{David Liu}, Zohair Shafi, William Fleisher, Tina Eliassi-Rad, and Scott Alfeld. 2021. RAWLSNET: Altering Bayesian Networks to Encode Rawlsian Fair Equality of Opportunity. In \textit{Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society (AIES ’21)}. \href{https://doi.org/10.1145/3461702.3462618}{[pdf]}\\
+\item[]
+\textbf{David Liu} and Matthew J. Salganik. Successes and struggles with computational reproducibility: Lessons from the fragile families challenge. \textit{Socius}, 5:1–21, 2019.  \href{https://doi.org/10.1177/2378023119849803}{[pdf]}
 \end{itemize}
+
+\begin{itemize}
+\section{Posters}
+\item[]
+\textbf{David Liu}. Uncovering the Evolution of Mukbang Videos on Youtube. \textit{The $7^{th}$ International Conference on Computational Social Science} (IC2S2), Virtual Conference, July 2021.
+\item[]
+\textbf{David Liu}. Uncovering the Evolution of Mukbang Videos on Youtube. \textit{Networks 2021: A Joint Sunbelt and NetSci Conference}, Virtual Conference, July 2021.
+\end{itemize}
+%\begin{itemize} \itemsep -1pt  % reduce space between items
+%\section{Projects}
+%\item
+%{\bf Analyzing language trends in post-secondary FERPA notices} \\
+%\emph{Advisor: Arvind Narayanan} \emph{Feb 2017 - Jun 2017}\\
+%Scraped education policy documents and used SVM classification to isolate FERPA notices. Data used to survey the state of education-policy compliance.\\
+%\url{https://github.com/dliu18/papers/blob/master/legal_nlp.pdf}\\
+%
+%\item
+%{\bf Discovering Princeton’s History: A textual analysis of \\collegiate newspaper headlines}\\
+%\emph{Advisor: Brian Kernighan} \emph{Sep 2016 - Jan 2017}\\
+%Created an interactive, public n-gram viewer based on the electronic archives of Princeton's student-run campus newspaper. \\
+%\url{https://github.com/dliu18/papers/blob/master/digital_humanities.pdf}
+%\end{itemize}
 
 \begin{itemize}
 \section{Industry \\Experience}
-\item 
-{\bf Bloomberg LP - {\em{Software Engineer}} \hfill July 2018 - Present}\\
+\item[] 
+{\bf Bloomberg LP} - {\em{Software Engineer}} \hfill Jul 2018 - Sep 2020\\
 Implementing scalable, reliable C++ services on a derivatives market data team with a focus on message queueing, automated testing, and interface design.
 
-\item
-{\bf The New York Times - {\em{Software Intern}}  \hfill  Summer 2017}\\
+\item[]
+{\bf The New York Times} - {\em{Software Intern}}  \hfill  Summer 2017\\
 Architected backend supporting the renovation of the “My Account” page of the New York Times, increasing site usability. Renovated site launched in October 2017. Initiated side project with the NYT Data Science team, improving visualization of readership data from embedded static files to native, interactive Google Charts.
 
-\item
-{\bf HookLogic Inc. - {\em{Data Science Intern}}  \hfill Summer 2016}\\
-Reduced data analysis overhead time for team by initiating Hive queries on AWS clusters to analyze performance of machine learning models.
+%\item
+%{\bf HookLogic Inc. - {\em{Data Science Intern}}  \hfill Summer 2016}\\
+%Reduced data analysis overhead time for team by initiating Hive queries on AWS clusters to analyze performance of machine learning models.
 \end{itemize}
 
 
-\begin{itemize}
+%\begin{itemize}
+%\section{Awards  and Honors}
+%\item[]
+%NSF Graduate Research Fellowship \hfill Apr 2021
+%\item[] 
+%Sigma Xi Nomination  \hfill Jun 2018
+%
+%%\item[]
+%%{\bf {Daily Princetonian Award for Excellence in Sports Writing:}} Annual award given to staff member demonstrating superior writing. {\bf \hfill Jun 2016}
+%%
+%%\item[]
+%%{\bf {Residential College Advisor Scholarship:}} One of 30 campus advisers chosen from class on the basis of leadership and character. Responsibilities include building community among 20 freshmen for one year. Monetary compensation of \$20k, covering room and board. {\bf \hfill Jun 2016}
+%
+%\end{itemize}
+
 \section{Awards  and Honors}
-\item
-{\bf {Sigma Xi Nominationt:}} Princeton chapter {\bf \hfill Jun 2018}
+\begin{tabular}{l l}	
+2021& NSF Graduate Research Fellowship\\
+2018& Sigma Xi Nomination
+\end{tabular}
 
-\item
-{\bf {Daily Princetonian Award for Excellence in Sports Writing:}} Annual award given to staff member demonstrating superior writing. {\bf \hfill Jun 2016}
+%\begin{itemize}
+%\section {Activities}
+%\item[]
+%{\bf {ML Reproducibility Challenge:}} Participant in Papers with Code's challenge to reproduce machine learning results from top computer science conferences. {\bf \hfill 2020}
+%\item[]
+%{\bf {Peer Academic Advisor, Princeton University:}} Provide academic assistance to freshmen and sophomores with choosing courses, majors and independent projects at Princeton University {\bf \hfill 2016 - 2017}
+%\item[]
+%{\bf {Undergraduate Lab Teaching Assistant, Princeton University:}} Provide debugging and conceptual assistance on programming assignments for introductory Computer Science courses; assist the head Lab TA in the smooth functioning of the Lab TA program {\bf \hfill 2015 - 2016}
+%\end{itemize}
 
-\item
-{\bf {Residential College Advisor Scholarship:}} One of 30 campus advisers chosen from class on the basis of leadership and character. Responsibilities include building community among 20 freshmen for one year. Monetary compensation of \$20k, covering room and board. {\bf \hfill Jun 2016}
+\section{Activities}
+\begin{tabular}{l p{0.9\linewidth}}	
+2020& ML Reproducibility Challenge, participant.\\
+2017& Undergraduate Peer Academic Advisor, Princeton University\\
+2016& Undergraduate Computer Science Lab Teaching Assistant, Princeton University\\
+\end{tabular}
 
-\end{itemize}
-
-\begin{itemize}
-\section {Co-curricular Activities}
-\item
-{\bf {Peer Academic Advisor, Princeton University:}} Provide academic assistance to freshmen and sophomores with choosing courses, majors and independent projects at Princeton University {\bf \hfill 2016 - 2017}
-\item
-{\bf {Undergraduate Lab Teaching Assistant, Princeton University:}} Provide debugging and conceptual assistance on programming assignments for introductory Computer Science courses; assist the head Lab TA in the smooth functioning of the Lab TA program {\bf \hfill 2015 - 2016}
-\end{itemize}
-
-\begin{itemize}
-\section {Talks}
-\item
-{\bf {RabbitMQ Summit}:} Will deliver the keynote address on Bloomberg's use of message queueing. \url{rabbitmqsummit.com}{\bf \hfill Nov 2019}
-
-\item
-{\bf {Fragile Families Challenge Scientific Workshop:}} Led a breakout session on using Docker to improve the reproducibility of crowdsourced machine learning prediction models. {\bf \hfill Nov 2017}\\
-% Brown Co-op 
-% Daily Prince
-% El Centro 
-\end{itemize}
-
+\section{Invited Talks}
+\begin{tabular}{l p{0.9\linewidth}}	
+2021& MD4SG Working Group on Discrimination in Algorithmic Decision-making, Invited Speaker. Online.\\
+2019& RabbitMQ Summit, Keynote Speaker. \textit{Growing a farm of rabbits to scale financial applications}. London, UK.\\
+2016& Fragile Families Challenge Scientific Workshop, Invited Speaker. Princeton, NJ.\\
+\end{tabular}
 
 %%%\begin{itemize}
 %%%\section{Projects / internships}
