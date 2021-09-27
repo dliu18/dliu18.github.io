@@ -15,10 +15,18 @@ author_profile: true
   {% include archive-single-publication.html %}
 {% endfor %}
 
-# Write-ups 
-{% for post in site.writeups reversed %}
+
+# Essays and Blog Posts
+{% include base_path %}
+
+{% for post in site.blog-posts reversed %}
   {% include archive-single-publication.html %}
 {% endfor %}
+
+<!-- # Write-ups 
+{% for post in site.writeups reversed %}
+  {% include archive-single-publication.html %}
+{% endfor %} -->
 
 # Daily Princetonian
 For three years, I wrote for the sports section of the Daily Princetonian. During that time, I covered daily sports news, interviewed notable alumni, and started a data analytics sports column. The complete list can be found on the [Daily Princetonian site.](http://dailyprincetonian.com/author/dml3/)

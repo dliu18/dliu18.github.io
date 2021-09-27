@@ -8,10 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in [Khoury College](https://www.khoury.northeastern.edu/) at Northeastern University, in affiliation with the [Network Science Institute](https://www.networkscienceinstitute.org/). 
+I am a second-year Ph.D. student in [Khoury College](https://www.khoury.northeastern.edu/) at Northeastern University, in affiliation with the [Network Science Institute](https://www.networkscienceinstitute.org/). 
 My research interests are fairness in machine learning, computational social science, and computational reproducibility. I apply machine learning to social issues but am also interested in identifying and measuring its limitations. In the process, I draw on domain knowledge and software-engineering best practices. I am supported by the NSF GRFP.
 
-I graduated from Princeton University with a concentration in Computer Science and a certificate in Statistics and Machine Learning. There, I was fortunate enough to be advised by [Matthew Salganik](http://www.princeton.edu/~mjs3/) and wrote a senior thesis titled [Successes and struggles with computational reproducibility: Lessons from the Fragile Families Challenge](https://doi.org/10.1177/2378023119849803).
+I graduated from Princeton University with a concentration in Computer Science and a certificate in Statistics and Machine Learning. There, I was fortunate enough to be advised by [Matthew Salganik](http://www.princeton.edu/~mjs3/).
 
 Previously, I was a software engineer at Bloomberg LP where my work focused on full-stack C++ applications, message queueing, and continuous integration. 
 
