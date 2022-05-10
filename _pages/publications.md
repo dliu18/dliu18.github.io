@@ -16,7 +16,7 @@ author_profile: true
 {% endfor %}
 
 
-# Essays and Blog Posts
+## Essays and Blog Posts
 {% include base_path %}
 
 {% for post in site.blog-posts reversed %}
@@ -28,7 +28,9 @@ author_profile: true
   {% include archive-single-publication.html %}
 {% endfor %} -->
 
-# Daily Princetonian
+Archives of my sports reporting for The Daily Princetonian are available [here](https://www.dailyprincetonian.com/staff/david-liu).
+
+<!-- # Daily Princetonian
 For three years, I wrote for the sports section of the Daily Princetonian. During that time, I covered daily sports news, interviewed notable alumni, and started a data analytics sports column. The complete list can be found on the [Daily Princetonian site.](http://dailyprincetonian.com/author/dml3/)
 
 * [Women’s basketball home-game attendance correlated with success](http://www.dailyprincetonian.com/article/2017/04/womens-basketball-home-game-attendance-correlated-with-success)
@@ -46,4 +48,4 @@ For three years, I wrote for the sports section of the Daily Princetonian. Durin
 ### Sample Daily Princetonian Sports Section 
 
 <div data-configid="0/37733750" style="width:650px; height:658px;" class="issuuembed"></div>
-<script type="text/javascript" src="https://e.issuu.com/embed.js" async="true"></script>
+<script type="text/javascript" src="https://e.issuu.com/embed.js" async="true"></script> -->
