@@ -15,4 +15,4 @@ I graduated from Princeton University with a concentration in Computer Science a
 
 During Summer 2022, I interned at Meta AI under the supervision of [Maximilian Nickel](https://ai.facebook.com/people/maximilian-nickel/) researching demographic-free measures of group fairness using social networks. Previously, I was a software engineer at Bloomberg LP where my work focused on full-stack C++ applications, message queueing, and continuous integration. 
 
-*Update*: During Fall 2022, I am a visiting graduate student at the Simons Institute / UC Berkeley in the [Program on Graph Limits and Processes on Networks: From Epidemics to Misinformation](https://simons.berkeley.edu/programs/graph2022).
+During Fall 2022, I was a visiting graduate student at the Simons Institute / UC Berkeley in the [Program on Graph Limits and Processes on Networks: From Epidemics to Misinformation](https://simons.berkeley.edu/programs/graph2022).
