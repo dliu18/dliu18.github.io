@@ -43,10 +43,8 @@ layout: default
         {% endif %}
         
              
-        {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
-        {% elsif page.citation %}
-          <p>Recommended citation: {{ page.citation }} </p>
+        {% if page.citation %}
+          {{ page.citation }} </p>
         {% endif %}
     
         </header>
@@ -64,9 +62,9 @@ layout: default
         {% include page__taxonomy.html %}
       </footer>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
+<!--       {% if page.share %}{% include social-share.html %}{% endif %}
 
-      {% include post_pagination.html %}
+      {% include post_pagination.html %} -->
     </div>
 
     {% if site.comments.provider and page.comments %}
