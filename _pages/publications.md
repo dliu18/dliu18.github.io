@@ -16,7 +16,7 @@ author_profile: true
 {% endfor %}
 
 
-## Essays and Blog Posts
+## Public Scholarship
 {% include base_path %}
 
 {% for post in site.blog-posts reversed %}
