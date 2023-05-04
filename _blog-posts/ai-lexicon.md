@@ -2,7 +2,7 @@
 title: "A New AI Lexicon: Power"
 collection: blog-posts
 permalink: /publication/ai-lexicon
-non-pdf-url: 'https://medium.com/a-new-ai-lexicon/a-new-ai-lexicon-power-2273f08c252a'
+linkurl: 'https://ainowinstitute.org/publication/a-new-ai-lexicon-power'
 citation: "D. Liu and S. Sakha. <i>A New AI Lexicon: Power</i>. 2021. An essay contribution to AI Now&#39;s <i>AI Lexicon</i> project."
 ---
 

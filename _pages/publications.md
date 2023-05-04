@@ -13,8 +13,10 @@ author_profile: true
 
 {% for post in site.publications reversed %}
   {% include archive-single-publication.html %}
+  <hr style="width:100%;text-align:left;margin-left:0">
 {% endfor %}
 
+<b style="color:#1b9e77;">[C]</b>: conference paper. <b style="color:#7570b3;">[W]</b>: workshop paper. <b style="color:#d95f02;">[J]</b>: journal paper.
 
 ## Public Scholarship
 {% include base_path %}
