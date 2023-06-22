@@ -3,5 +3,8 @@ main:
   - title: "Publications"
     url: /publications/
     
+  - title: "Blog"
+    url: https://medium.com/@david-liu
+
   - title: "CV"
     url: /files/cv/cv.pdf
