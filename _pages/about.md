@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year computer science Ph.D. candidate in [Khoury College](https://www.khoury.northeastern.edu/) at Northeastern University, in affiliation with the [Network Science Institute](https://www.networkscienceinstitute.org/), advised by Professor [Tina Eliassi-Rad](http://eliassi.org/). 
+I am a fourth-year computer science Ph.D. candidate in [Khoury College](https://www.khoury.northeastern.edu/) at Northeastern University, in affiliation with the [Network Science Institute](https://www.networkscienceinstitute.org/), advised by Professor [Tina Eliassi-Rad](http://eliassi.org/). 
 My research interests lie at the intersection of graph machine learning, algorithmic fairness, and the societal impact of AI. I am supported by the NSF GRFP.
 
 I graduated from Princeton University with a concentration in Computer Science and a certificate in Statistics and Machine Learning. There, I was fortunate enough to be advised by [Matthew Salganik](http://www.princeton.edu/~mjs3/).
