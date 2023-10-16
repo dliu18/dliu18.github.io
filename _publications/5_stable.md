@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/stable
 paperurl: '/files/papers/stable/stable-Main-SDM-23.pdf'
 project-site: '/publication/stable'
-citation: "<b style=\"color:#1b9e77;\">[C3]</b> <b>D. Liu</b> and T. Eliassi-Rad. 2023. <i>Identifying and Mitigating Instability in Embeddings of the Degenerate Core</i>. SIAM SDM'23."
+citation: " <b>D. Liu</b> and T. Eliassi-Rad. 2023. <i>Identifying and Mitigating Instability in Embeddings of the Degenerate Core</i>. SIAM SDM'23."
 ---
 
 <ul>

@@ -193,7 +193,9 @@ collections:
   blog-posts:
     output: true
     permalink: /:collection/:path/
-
+  preprints:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
