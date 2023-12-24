@@ -15,4 +15,7 @@ I graduated from Princeton University with a concentration in Computer Science a
 
 During Summer 2022, I interned at Meta AI under the supervision of [Maximilian Nickel](https://ai.facebook.com/people/maximilian-nickel/). Previously, I was a software engineer at Bloomberg LP where my work focused on full-stack C++ applications, message queueing, and continuous integration. 
 
-During Fall 2022, I was a visiting graduate student at the Simons Institute / UC Berkeley in the [Program on Graph Limits and Processes on Networks: From Epidemics to Misinformation](https://simons.berkeley.edu/programs/graph2022).
+### New
+
+* [Jan '24] This spring I will be the Instructor of Record for Introduction to Machine Learning and Data Mining ([DS 4400](/teaching/ds4400spr24)) at Northeastern. 
+* [Oct '23] New [preprint](https://arxiv.org/abs/2310.09687) on unfairness in PCA.
