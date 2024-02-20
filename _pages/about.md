@@ -17,6 +17,7 @@ During Summer 2022, I interned at Meta AI under the supervision of [Maximilian N
 
 ### News
 
+* [Feb '24] I presented a talk titled "_Toward Understanding Mechanisms of Unfairness and Moving Beyond Demographic Attributes_" at the MSR New England ML Ideas Seminar. My slides are available [here](/files/talks/MSR-NE-ML-Ideas.pdf).
 * [Feb '24] This summer I will be a PhD Research Scientist Intern on the Graph Science and Statistics Research team at Meta Central Applied Science (CAS) in Menlo Park.
 * [Jan '24] This spring I am the Instructor of Record for _Introduction to Machine Learning and Data Mining_ ([DS 4400](/teaching/ds4400spr24)) at Northeastern. 
 * [Oct '23] New [preprint](https://arxiv.org/abs/2310.09687) on unfairness in PCA.
