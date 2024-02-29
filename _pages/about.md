@@ -13,6 +13,8 @@ My research interests lie at the intersection of graph machine learning, algorit
 
 I graduated from Princeton University with a concentration in Computer Science and a certificate in Statistics and Machine Learning. There, I was fortunate enough to be advised by [Matthew Salganik](http://www.princeton.edu/~mjs3/).
 
+I have worked as a part-time sociotechnical researcher at [Taraaz](https://taraazresearch.org/), founded by Roya Pakzad, collaborating on projects on human-rights impact assessments and [AI procurement](https://www.fordfoundation.org/work/learning/research-reports/a-guiding-framework-to-vetting-public-sector-technology-vendors/).
+
 During Summer 2022, I interned at Meta AI under the supervision of [Maximilian Nickel](https://ai.facebook.com/people/maximilian-nickel/). Previously, I was a software engineer at Bloomberg LP where my work focused on full-stack C++ applications, message queueing, and continuous integration. 
 
 ### News
