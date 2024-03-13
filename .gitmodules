@@ -1,4 +1,0 @@
-[submodule "files/papers"]
-	path = files/papers
-	url = https://github.com/dliu18/papers.git
-	branch = master
