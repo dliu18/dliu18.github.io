@@ -11,7 +11,7 @@ redirect_from:
 I am a fifth-year computer science Ph.D. candidate in [Khoury College](https://www.khoury.northeastern.edu/) at Northeastern University, in affiliation with the [Network Science Institute](https://www.networkscienceinstitute.org/), advised by Professor [Tina Eliassi-Rad](http://eliassi.org/). 
 My research interests lie at the intersection of graph machine learning, algorithmic fairness, and the societal impact of AI. My research is supported by the NSF GRFP.
 
-The goal of my research is to improve the trustworthiness of machine learning applied to these complex systems. My past work and current interests focus on: 
+The goal of my research is to improve the trustworthiness of machine learning applied to complex systems. My past work and current interests focus on: 
 1. Advancing fundamental research into graph machine learning with a focus on improving [efficiency](https://arxiv.org/abs/2405.00172) and [stability](https://dliu18.github.io/files/papers/stable/stable-Main-SDM-23.pdf) 
 2. Improving the [diversity](https://arxiv.org/abs/2310.09687) of recommender systems and studying their impact on minority preferences.
 3. Fostering interdisciplinary deliberations about the potential [broader impacts](https://dl.acm.org/doi/10.1145/3514094.3534155) of machine learning and AI. 
