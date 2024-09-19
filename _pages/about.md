@@ -8,18 +8,21 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year computer science Ph.D. candidate in [Khoury College](https://www.khoury.northeastern.edu/) at Northeastern University, in affiliation with the [Network Science Institute](https://www.networkscienceinstitute.org/), advised by Professor [Tina Eliassi-Rad](http://eliassi.org/). 
+I am a fifth-year computer science Ph.D. candidate in [Khoury College](https://www.khoury.northeastern.edu/) at Northeastern University, in affiliation with the [Network Science Institute](https://www.networkscienceinstitute.org/), advised by Professor [Tina Eliassi-Rad](http://eliassi.org/). 
 My research interests lie at the intersection of graph machine learning, algorithmic fairness, and the societal impact of AI. My research is supported by the NSF GRFP.
 
-I graduated from Princeton University with a concentration in Computer Science and a certificate in Statistics and Machine Learning. There, I was fortunate enough to be advised by [Matthew Salganik](http://www.princeton.edu/~mjs3/).
+The goal of my research is to improve the trustworthiness of machine learning applied to these complex systems. My past work and current interests focus on: 
+1. Advancing fundamental research into graph machine learning with a focus on improving [efficiency](https://arxiv.org/abs/2405.00172) and [stability](https://dliu18.github.io/files/papers/stable/stable-Main-SDM-23.pdf) 
+2. Improving the [diversity](https://arxiv.org/abs/2310.09687) of recommender systems and studying their impact on minority preferences.
+3. Fostering interdisciplinary deliberations about the potential [broader impacts](https://dl.acm.org/doi/10.1145/3514094.3534155) of machine learning and AI. 
 
 I have worked as a part-time sociotechnical researcher at [Taraaz](https://taraazresearch.org/), founded by Roya Pakzad, collaborating on projects on human-rights impact assessments and [AI procurement](https://www.fordfoundation.org/work/learning/research-reports/a-guiding-framework-to-vetting-public-sector-technology-vendors/).
 
-During Summer 2022, I interned at Meta AI under the supervision of [Maximilian Nickel](https://ai.facebook.com/people/maximilian-nickel/). Previously, I was a software engineer at Bloomberg LP where my work focused on full-stack C++ applications, message queueing, and continuous integration. 
+Previously, I was a software engineer at Bloomberg LP where my work focused on full-stack C++ applications, message queueing, and continuous integration. I graduated from Princeton University with a concentration in Computer Science and a certificate in Statistics and Machine Learning.  
 
 ### News
 
+* [May '24] New preprint [Re-visiting Skip-Gram Negative Sampling: Dimension Regularization for More Efficient Dissimilarity Preservation in Graph Embeddings](https://arxiv.org/abs/2405.00172)
 * [Feb '24] I presented a talk titled "_Toward Understanding Mechanisms of Unfairness and Moving Beyond Demographic Attributes_" at the MSR New England ML Ideas Seminar. My slides are available [here](/files/talks/MSR-NE-ML-Ideas.pdf).
 * [Feb '24] This summer I will be a PhD Research Scientist Intern on the Graph Science and Statistics Research team at Meta Central Applied Science (CAS) in Menlo Park.
 * [Jan '24] This spring I am the Instructor of Record for _Introduction to Machine Learning and Data Mining_ ([DS 4400](/teaching/ds4400spr24)) at Northeastern. 
-* [Oct '23] New [preprint](https://arxiv.org/abs/2310.09687) on unfairness in PCA.
