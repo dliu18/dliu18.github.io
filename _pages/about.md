@@ -18,11 +18,14 @@ The goal of my research is to improve the trustworthiness of machine learning ap
 
 I have worked as a part-time sociotechnical researcher at [Taraaz](https://taraazresearch.org/), founded by Roya Pakzad, collaborating on projects on human-rights impact assessments and [AI procurement](https://www.fordfoundation.org/work/learning/research-reports/a-guiding-framework-to-vetting-public-sector-technology-vendors/).
 
-Previously, I was a software engineer at Bloomberg LP where my work focused on full-stack C++ applications, message queueing, and continuous integration. I graduated from Princeton University with a concentration in Computer Science and a certificate in Statistics and Machine Learning.  
+I have interned at Meta Central Applied Science and FAIR and was previously a software engineer at Bloomberg LP. I graduated from Princeton University with a concentration in Computer Science and a certificate in Statistics and Machine Learning.  
+
+<p style="color:#de2d26;">I am on the market for postdocs and research-scientist roles beginning in 2025.</p>
 
 ### News
 
-* [May '24] New preprint [Re-visiting Skip-Gram Negative Sampling: Dimension Regularization for More Efficient Dissimilarity Preservation in Graph Embeddings](https://arxiv.org/abs/2405.00172)
+* [Nov '24] I will give a talk at Brown University's [CNTR](https://cntr.brown.edu/).
+* [May '24] New preprint on [negative sampling](https://arxiv.org/abs/2405.00172).
 * [Feb '24] I presented a talk titled "_Toward Understanding Mechanisms of Unfairness and Moving Beyond Demographic Attributes_" at the MSR New England ML Ideas Seminar. My slides are available [here](/files/talks/MSR-NE-ML-Ideas.pdf).
 * [Feb '24] This summer I will be a PhD Research Scientist Intern on the Graph Science and Statistics Research team at Meta Central Applied Science (CAS) in Menlo Park.
 * [Jan '24] This spring I am the Instructor of Record for _Introduction to Machine Learning and Data Mining_ ([DS 4400](/teaching/ds4400spr24)) at Northeastern. 
