@@ -20,7 +20,7 @@ I have worked as a part-time sociotechnical researcher at [Taraaz](https://taraa
 
 I have interned at Meta Central Applied Science and FAIR and was previously a software engineer at Bloomberg LP. I graduated from Princeton University with a concentration in Computer Science and a certificate in Statistics and Machine Learning.  
 
-I am on the market for postdocs and research-scientist roles beginning in 2025.
+** I am on the market for postdocs and research-scientist roles beginning in 2025. **
 
 ### News
 
