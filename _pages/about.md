@@ -24,7 +24,7 @@ I have interned at Meta Central Applied Science and FAIR and was previously a so
 
 ### News
 
-* [Nov '24] I will give a talk at Brown University's [CNTR](https://cntr.brown.edu/).
+* [Nov '24] I will give a talk at Brown University's [CNTR](https://cntr.brown.edu/). My slides are available [here](/files/talks/11-7-24-Brown-CNTR.pdf).
 * [May '24] New preprint on [negative sampling](https://arxiv.org/abs/2405.00172).
 * [Feb '24] I presented a talk titled "_Toward Understanding Mechanisms of Unfairness and Moving Beyond Demographic Attributes_" at the MSR New England ML Ideas Seminar. My slides are available [here](/files/talks/MSR-NE-ML-Ideas.pdf).
 * [Feb '24] This summer I will be a PhD Research Scientist Intern on the Graph Science and Statistics Research team at Meta Central Applied Science (CAS) in Menlo Park.
