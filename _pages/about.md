@@ -16,11 +16,11 @@ The goal of my research is to improve the trustworthiness of machine learning ap
 2. Improving the [diversity](https://arxiv.org/abs/2310.09687) of recommender systems and studying their impact on minority preferences.
 3. Fostering interdisciplinary deliberations about the potential [broader impacts](https://dl.acm.org/doi/10.1145/3514094.3534155) of machine learning and AI. 
 
-I have worked as a part-time sociotechnical researcher at [Taraaz](https://taraazresearch.org/), founded by Roya Pakzad, collaborating on projects on human-rights impact assessments and [AI procurement](https://www.fordfoundation.org/work/learning/research-reports/a-guiding-framework-to-vetting-public-sector-technology-vendors/).
+I have worked as a sociotechnical researcher at [Taraaz](https://taraazresearch.org/), collaborating on projects on human-rights impact assessments and [AI procurement](https://www.fordfoundation.org/work/learning/research-reports/a-guiding-framework-to-vetting-public-sector-technology-vendors/).
 
-I have interned at Meta Central Applied Science and FAIR and was previously a software engineer at Bloomberg LP. I graduated from Princeton University with a concentration in Computer Science and a certificate in Statistics and Machine Learning.  
+I have interned at Meta Central Applied Science (CAS) and FAIR AI and was previously a software engineer at Bloomberg LP. I graduated from Princeton University with a concentration in Computer Science and a certificate in Statistics and Machine Learning.  
 
-** I am on the market for postdocs and research-scientist roles beginning in 2025. **
+**I am on the market for postdocs and research-scientist roles beginning in fall 2025.**
 
 ### News
 
