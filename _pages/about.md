@@ -8,12 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am a final-year computer science Ph.D. candidate in [Khoury College](https://www.khoury.northeastern.edu/) at Northeastern University, in affiliation with the [Network Science Institute](https://www.networkscienceinstitute.org/), advised by Professor [Tina Eliassi-Rad](http://eliassi.org/). 
+I am a final-year computer science Ph.D. candidate at Northeastern University, affiliated with the [Network Science Institute](https://www.networkscienceinstitute.org/) and advised by Professor [Tina Eliassi-Rad](http://eliassi.org/). 
 My research interests lie at the intersection of graph machine learning, algorithmic fairness, and the societal impact of AI. I am supported by the NSF GRFP.
 
 **In August 2025, I will begin as an [Assistant Research Professor (postdoc)](https://datasciencecenter.cornell.edu/professorship-program/) at Cornell mentored by Professors Moon Duchin and Jon Kleinberg.**
 
-The goal of my research is to improve the trustworthiness of machine learning applied to complex systems. I focus on developing representation learning that is [efficient](https://arxiv.org/abs/2405.00172), [stable](https://dliu18.github.io/files/papers/stable/stable-Main-SDM-23.pdf), and [fair](https://arxiv.org/abs/2310.09687). 
+My research aims to improve the trustworthiness of machine learning applied to complex systems. I focus on developing representation learning that is [efficient](https://arxiv.org/abs/2405.00172), [stable](https://dliu18.github.io/files/papers/stable/stable-Main-SDM-23.pdf), and [fair](https://arxiv.org/abs/2310.09687). 
 
 I have worked as a sociotechnical researcher at [Taraaz](https://taraazresearch.org/), collaborating on projects on human-rights impact assessments and [AI procurement](https://www.fordfoundation.org/work/learning/research-reports/a-guiding-framework-to-vetting-public-sector-technology-vendors/).
 
