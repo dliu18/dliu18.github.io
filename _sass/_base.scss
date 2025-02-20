@@ -124,6 +124,11 @@ a {
   &:hover,
   &:active {
     outline: 0;
+    color: $link-color-hover;
+  }
+
+  &:visited {
+    color: $link-color-visited;
   }
 }
 
