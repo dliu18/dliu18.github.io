@@ -1,5 +1,5 @@
 ---
-title: "Identifying and Mitigating Instability in Embeddings of the Degenerate Core"
+title: "STABLE: Identifying and Mitigating Instability in Embeddings of the Degenerate Core"
 collection: publications
 permalink: /publication/stable
 paperurl: '/files/papers/stable/stable-Main-SDM-23.pdf'
