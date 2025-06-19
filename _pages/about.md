@@ -11,7 +11,7 @@ redirect_from:
 I am a final-year computer science Ph.D. candidate at Northeastern University, affiliated with the [Network Science Institute](https://www.networkscienceinstitute.org/) and advised by Professor [Tina Eliassi-Rad](http://eliassi.org/). 
 My research interests lie at the intersection of graph machine learning, algorithmic fairness, and the societal impact of AI. I am supported by the NSF GRFP.
 
-In August 2025, I will begin as an [Assistant Research Professor](https://datasciencecenter.cornell.edu/professorship-program/) (postdoc) at Cornell's Center for Data Science for Enterprise and Society.
+In August 2025, I will begin as an [Assistant Research Professor](https://datasciencecenter.cornell.edu/professorship-program/) at Cornell's Center for Data Science for Enterprise and Society.
 
 My research aims to improve the trustworthiness of machine learning applied to complex systems. I focus on developing representation learning that is efficient, stable, and fair. 
 
