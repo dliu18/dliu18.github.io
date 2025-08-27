@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "David M. Liu"
 title_separator          : "-"
 name                     : &name "David Liu"
-description              : &description "PhD Student at Northeastern University"
+description              : &description "Assistant Research Professor at Cornell University"
 url                      : https://dliu18.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dliu18/dliu18.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "David M. Liu"
   avatar           : "profile_2.JPG"
-  bio              : "PhD Student in Computer Science"
+  bio              : "Assistant Research Professor at Cornell University"
   location         : 
   employer         :
   pubmed           : 
