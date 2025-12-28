@@ -3,7 +3,10 @@ title: "STABLE: Identifying and Mitigating Instability in Embeddings of the Dege
 collection: publications
 permalink: /publication/stable
 paperurl: '/files/papers/stable/stable-Main-SDM-23.pdf'
+codeurl: 'https://github.com/dliu18/stable'
 project-site: '/publication/stable'
+authors: "<b>David Liu</b> and Tina Eliassi-Rad"
+venue: SDM 2023
 citation: " <b>D. Liu</b> and T. Eliassi-Rad. 2023. <i>Identifying and Mitigating Instability in Embeddings of the Degenerate Core</i>. SIAM SDM'23."
 ---
 

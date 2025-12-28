@@ -1,0 +1,205 @@
+{% comment %}
+
+Expected fields in each _publications/*.md front matter (optional):
+  - title (required)
+  - authors (e.g., "<b>David Liu</b>, Alice Smith, ...")
+  - venue (e.g., "KDD 2025")
+  - status (e.g., "preprint", "Conference paper", "Workshop")
+  - paperurl / pdfurl / arxivurl
+  - codeurl / videourl / slidesurl / posterurl / bibtexurl
+  - image (path to thumbnail)
+  - note (short note like "Best Paper Award")
+If authors/venue are missing, we fall back to `citation` if provided.
+
+Bugfixes:
+  - Strip all URL fields before using them in href to avoid URI::InvalidURIError
+    when metadata contains whitespace or invisible characters.
+{% endcomment %}
+
+{% assign pubs = site.publications | reverse %}
+
+{%- comment -%} Detect whether we have any preprints {%- endcomment -%}
+{% assign has_preprints = false %}
+{% for p in pubs %}
+  {% if p.status == "preprint" %}
+    {% assign has_preprints = true %}
+  {% endif %}
+{% endfor %}
+
+{% assign has_public = false %}
+{% for p in pubs %}
+  {% if p.status == "public" %}
+    {% assign has_public = true %}
+  {% endif %}
+{% endfor %}
+
+{%- comment -%} ==================== PREPRINTS (conditional) ==================== {%- endcomment -%}
+{% if has_preprints %}
+<h2>Preprints</h2>
+
+<table class="pubtable">
+  {% for p in pubs %}
+    {% if p.status == "preprint" %}
+
+      {%- assign paperurl = p.paperurl | default: "" | strip -%}
+      {%- assign pdfurl   = p.pdfurl   | default: "" | strip -%}
+      {%- assign arxivurl = p.arxivurl | default: "" | strip -%}
+      {%- assign codeurl  = p.codeurl  | default: "" | strip -%}
+      {%- assign videourl = p.videourl | default: "" | strip -%}
+      {%- assign slidesurl= p.slidesurl| default: "" | strip -%}
+      {%- assign posterurl= p.posterurl| default: "" | strip -%}
+      {%- assign bibtexurl= p.bibtexurl| default: "" | strip -%}
+
+      <tr class="pubrow">
+        <td class="pubtd pubimgtd">
+          {% if p.image %}
+            <img class="pubimg" src="{{ p.image | strip | relative_url }}" alt="thumbnail for {{ p.title | escape }}">
+          {% else %}
+            <div class="pubimg-placeholder" aria-hidden="true"></div>
+          {% endif %}
+        </td>
+
+        <td class="pubtd pubmetatd">
+          <div class="pubtitle">
+            {% if paperurl != "" %}
+              <a href="{{ paperurl }}">{{ p.title }}</a>
+            {% elsif pdfurl != "" %}
+              <a href="{{ pdfurl }}">{{ p.title }}</a>
+            {% else %}
+              {{ p.title }}
+            {% endif %}
+          </div>
+
+          {% if p.authors or p.venue or p.note %}
+            <div class="pubauthors">{{ p.authors }}</div>
+            <div class="pubvenue">
+              {%- if p.venue -%}{{ p.venue }}{%- else -%}Preprint{%- endif -%}
+              {% if p.note %}<span class="pubnote"> · {{ p.note }}</span>{% endif %}
+            </div>
+          {% elsif p.citation %}
+            <div class="pubcitation">{{ p.citation }}</div>
+          {% endif %}
+
+        </td>
+      </tr>
+
+    {% endif %}
+  {% endfor %}
+</table>
+{% endif %}
+{%- comment -%} ==================== PUBLICATIONS (non-preprints) ==================== {%- endcomment -%}
+<h2 id="publications">Publications</h2>
+
+<table class="pubtable">
+  {% for p in pubs %}
+    {% if p.status != "preprint" and p.status != "public"%}
+
+      {%- assign paperurl = p.paperurl | default: "" | strip -%}
+      {%- assign pdfurl   = p.pdfurl   | default: "" | strip -%}
+      {%- assign arxivurl = p.arxivurl | default: "" | strip -%}
+      {%- assign codeurl  = p.codeurl  | default: "" | strip -%}
+      {%- assign videourl = p.videourl | default: "" | strip -%}
+      {%- assign slidesurl= p.slidesurl| default: "" | strip -%}
+      {%- assign posterurl= p.posterurl| default: "" | strip -%}
+      {%- assign bibtexurl= p.bibtexurl| default: "" | strip -%}
+
+      <tr class="pubrow">
+        <td class="pubtd pubimgtd">
+          {% if p.image %}
+            <img class="pubimg" src="{{ p.image | strip | relative_url }}" alt="thumbnail for {{ p.title | escape }}">
+          {% else %}
+            <div class="pubimg-placeholder" aria-hidden="true"></div>
+          {% endif %}
+        </td>
+
+        <td class="pubtd pubmetatd">
+          <div class="pubtitle">
+            {% if paperurl != "" %}
+              <a href="{{ paperurl }}">{{ p.title }}</a>
+            {% elsif pdfurl != "" %}
+              <a href="{{ pdfurl }}">{{ p.title }}</a>
+            {% else %}
+              {{ p.title }}
+            {% endif %}
+          </div>
+
+          {% if p.authors or p.venue or p.status or p.note %}
+            <div class="pubauthors">{{ p.authors }}</div>
+            <div class="pubvenue">
+              {% if p.venue %}{{ p.venue }}{% endif %}
+              {% if p.note %}<span class="pubnote"> · {{ p.note }}</span>{% endif %}
+            </div>
+          {% elsif p.citation %}
+            <div class="pubcitation">{{ p.citation }}</div>
+          {% endif %}
+
+          <div class="publinks">
+            {% assign sep = "" %}
+            {% if paperurl != "" %}{{ sep }}<a href="{{ paperurl }}">paper</a>{% assign sep = " · " %}{% endif %}
+            {% if pdfurl   != "" %}{{ sep }}<a href="{{ pdfurl }}">pdf</a>{% assign sep = " · " %}{% endif %}
+            {% if arxivurl != "" %}{{ sep }}<a href="{{ arxivurl }}">arXiv</a>{% assign sep = " · " %}{% endif %}
+            {% if codeurl  != "" %}{{ sep }}<a href="{{ codeurl }}">code</a>{% assign sep = " · " %}{% endif %}
+            {% if videourl != "" %}{{ sep }}<a href="{{ videourl }}">video</a>{% assign sep = " · " %}{% endif %}
+            {% if slidesurl!= "" %}{{ sep }}<a href="{{ slidesurl }}">slides</a>{% assign sep = " · " %}{% endif %}
+            {% if posterurl!= "" %}{{ sep }}<a href="{{ posterurl }}">poster</a>{% assign sep = " · " %}{% endif %}
+            {% if bibtexurl!= "" %}{{ sep }}<a href="{{ bibtexurl }}">bibtex</a>{% assign sep = " · " %}{% endif %}
+          </div>
+        </td>
+      </tr>
+
+    {% endif %}
+  {% endfor %}
+</table>
+{%- comment -%} ==================== PREPRINTS (conditional) ==================== {%- endcomment -%}
+{% if has_public %}
+<h2 id="public-scholarship">Public Scholarship</h2>
+
+<table class="pubtable">
+  {% for p in pubs %}
+    {% if p.status == "public" %}
+
+      {%- assign paperurl = p.paperurl | default: "" | strip -%}
+      {%- assign pdfurl   = p.pdfurl   | default: "" | strip -%}
+      {%- assign arxivurl = p.arxivurl | default: "" | strip -%}
+      {%- assign codeurl  = p.codeurl  | default: "" | strip -%}
+      {%- assign videourl = p.videourl | default: "" | strip -%}
+      {%- assign slidesurl= p.slidesurl| default: "" | strip -%}
+      {%- assign posterurl= p.posterurl| default: "" | strip -%}
+      {%- assign bibtexurl= p.bibtexurl| default: "" | strip -%}
+
+      <tr class="pubrow">
+        <td class="pubtd pubimgtd">
+          {% if p.image %}
+            <img class="pubimg" src="{{ p.image | strip | relative_url }}" alt="thumbnail for {{ p.title | escape }}">
+          {% else %}
+            <div class="pubimg-placeholder" aria-hidden="true"></div>
+          {% endif %}
+        </td>
+
+        <td class="pubtd pubmetatd">
+          <div class="pubtitle">
+            {% if paperurl != "" %}
+              <a href="{{ paperurl }}">{{ p.title }}</a>
+            {% elsif pdfurl != "" %}
+              <a href="{{ pdfurl }}">{{ p.title }}</a>
+            {% else %}
+              {{ p.title }}
+            {% endif %}
+          </div>
+
+          {% if p.authors or p.venue or p.note %}
+            <div class="pubauthors">{{ p.authors }}</div>
+            <div class="pubvenue">
+              {% if p.note %}<span class="pubnote"> · {{ p.note }}</span>{% endif %}
+            </div>
+          {% elsif p.citation %}
+            <div class="pubcitation">{{ p.citation }}</div>
+          {% endif %}
+
+        </td>
+      </tr>
+
+    {% endif %}
+  {% endfor %}
+</table>
+{% endif %}

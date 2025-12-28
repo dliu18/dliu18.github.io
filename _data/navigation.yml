@@ -1,10 +1,10 @@
 # main links links
 main:
   - title: "Publications"
-    url: /publications/
-    
+    url: "/#publications"
+  - title: "Teaching"
+    url: "/#teaching"
   - title: "Blog"
     url: https://medium.com/@david-liu
-
   - title: "CV"
     url: /files/cv/cv.pdf

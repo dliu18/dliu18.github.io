@@ -16,9 +16,19 @@ I completed my Ph.D. in computer science at Northeastern University, affiliated 
 
 I have worked as a research-scientist intern at Meta (Central Applied Science and FAIR AI), sociotechnical researcher at [Taraaz](https://taraazresearch.org/), and software engineer at Bloomberg LP.
 
-### News
+## News
 
 * [Aug '25] I started as an Assistant Research Professor at Cornell.
 * [Jul '25] I defended my Ph.D. at Northeastern!
 * [May '25] Paper on [skip-gram negative sampling](https://arxiv.org/abs/2405.00172) accepted to KDD '25
 * [Apr '25] Paper on [fairness in PCA](https://arxiv.org/abs/2310.09687) accepted to FAccT '25
+
+{% include publications_list.html %}
+
+Archives of my sports reporting for The Daily Princetonian are available [here](https://www.dailyprincetonian.com/staff/david-liu).
+
+<h2 id="teaching">Teaching</h2>
+
+{% for post in site.teaching reversed %}
+  {% include archive-single-class.html %}
+{% endfor %}
