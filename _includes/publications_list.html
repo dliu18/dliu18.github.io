@@ -1,21 +1,3 @@
-{% comment %}
-
-Expected fields in each _publications/*.md front matter (optional):
-  - title (required)
-  - authors (e.g., "<b>David Liu</b>, Alice Smith, ...")
-  - venue (e.g., "KDD 2025")
-  - status (e.g., "preprint", "Conference paper", "Workshop")
-  - paperurl / pdfurl / arxivurl
-  - codeurl / videourl / slidesurl / posterurl / bibtexurl
-  - image (path to thumbnail)
-  - note (short note like "Best Paper Award")
-If authors/venue are missing, we fall back to `citation` if provided.
-
-Bugfixes:
-  - Strip all URL fields before using them in href to avoid URI::InvalidURIError
-    when metadata contains whitespace or invisible characters.
-{% endcomment %}
-
 {% assign pubs = site.publications | reverse %}
 
 {%- comment -%} Detect whether we have any preprints {%- endcomment -%}
