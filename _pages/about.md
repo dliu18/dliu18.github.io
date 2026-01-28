@@ -18,10 +18,10 @@ I have worked as a research-scientist intern at Meta (Central Applied Science an
 
 ## News
 
+* [Jan '26] Discussed my work on recommender systems on the [Data Skeptic](https://open.spotify.com/episode/6IsPN6U9tHJMdvA0sdQM8d) podcast.
+* [Jan '26] Paper on [power-niche users](https://arxiv.org/abs/2509.17265) accepted to WWW '26
 * [Aug '25] I started as an Assistant Research Professor at Cornell.
 * [Jul '25] I defended my Ph.D. at Northeastern!
-* [May '25] Paper on [skip-gram negative sampling](https://arxiv.org/abs/2405.00172) accepted to KDD '25
-* [Apr '25] Paper on [fairness in PCA](https://arxiv.org/abs/2310.09687) accepted to FAccT '25
 
 {% include publications_list.html %}
 
