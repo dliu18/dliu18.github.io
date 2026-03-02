@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an [Assistant Research Professor](https://datasciencecenter.cornell.edu/professorship-program/) at Cornell's Center for Data Science for Enterprise and Society, where I am mentored by Jon Kleinberg and Moon Duchin. I am affiliated with the Department of Computer Science.
+I am an [Assistant Research Professor](https://datasciencecenter.cornell.edu/professorship-program/) at Cornell's Center for Data Science for Enterprise and Society, where I am mentored by Jon Kleinberg, Maryam Fazel, and Sarah Dean. I am affiliated with the Department of Computer Science.
  
 My research interests lie at the intersection of graph machine learning, algorithmic fairness, and the societal impact of AI. I seek to improve the ability of machine learning models to capture the preferences and identities of minority populations.   
 
