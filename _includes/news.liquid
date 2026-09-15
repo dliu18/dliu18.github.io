@@ -1,0 +1,12 @@
+<div class="news">
+  <div class="table-responsive">
+    <table class="table table-sm table-borderless">
+      {% for item in site.data.news %}
+        <tr>
+          <th scope="row" style="width: 20%">{{ item.date | escape }}</th>
+          <td>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>

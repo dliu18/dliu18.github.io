@@ -1,4 +1,13 @@
 _site/
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+node_modules/
+vendor/
+al-folio-upgrade-report.md
 files/cv/Resume*
 *.DS_Store
-Gemfile*
+
+# Local planning notes must never be committed.
+/TODO.md

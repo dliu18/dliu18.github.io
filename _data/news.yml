@@ -1,0 +1,11 @@
+# Newest first. Dates are display labels; no exact day is required.
+- date: "Jul '26"
+  text: "Presented work on polling for ranked-choice voting at EC 2026 (New Directions in Social Choice workshop)."
+- date: "Jul '26"
+  text: "Presented work on data mixing for collaborative filtering at ICML 2026 (Pluralistic Alignment workshop)."
+- date: "Jun '26"
+  text: "Released ranked-choice [forecasts of the 2026 Maine primaries](https://dliu18.github.io/maine-2026-primaries/)."
+- date: "Jan '26"
+  text: "Discussed my work on recommender systems on the [Data Skeptic](https://open.spotify.com/episode/6IsPN6U9tHJMdvA0sdQM8d) podcast."
+- date: "Jan '26"
+  text: "Paper on [power-niche users](https://arxiv.org/abs/2509.17265) accepted to WWW '26."
