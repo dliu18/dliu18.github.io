@@ -11,7 +11,7 @@ profile:
   image: profile_2.JPG
   image_circular: false
   more_info: >
-    <p>davidliu@cornell.edu</p>
+    <p class="d-block text-center">davidliu@cornell.edu</p>
 social: false
 ---
 
