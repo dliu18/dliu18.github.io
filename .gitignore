@@ -6,7 +6,9 @@ _site/
 node_modules/
 vendor/
 al-folio-upgrade-report.md
-files/cv/Resume*
+# Publish only the canonical CV PDF; keep sources and other CV files local.
+/files/cv/*
+!/files/cv/cv.pdf
 *.DS_Store
 
 # Local planning notes must never be committed.
