@@ -1,7 +1,8 @@
 ---
 ---
+{% assign show_venue_column = site.enable_publication_thumbnails %}
 <div class="row">
-  {% if site.enable_publication_thumbnails %}
+  {% if show_venue_column %}
     <div
       class="col col-sm-2 abbr"
       {% if entry.preview %}
@@ -48,7 +49,7 @@
           {% endif %}
           {% include video.liquid path=preview_video_path class="preview z-depth-1 rounded" controls=true %}
         {% elsif entry.preview contains '://' %}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" alt="{{ entry.title | escape }}">
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           {%
@@ -59,7 +60,7 @@
             class="preview z-depth-1 rounded"
             zoomable=true
             avoid_scaling=true
-            alt=entry.preview
+            alt=entry.title
           %}
         {% endif %}
       {% endif %}
@@ -67,7 +68,7 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{ entry.key }}" class="{% if show_venue_column %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->

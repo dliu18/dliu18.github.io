@@ -5,6 +5,7 @@ permalink: /sitemap/
 ---
 
 - [Home]({{ '/' | relative_url }})
+- [Working Papers]({{ '/#working-papers' | relative_url }})
 - [Publications]({{ '/#publications' | relative_url }})
 - [Public Scholarship]({{ '/#public-scholarship' | relative_url }})
 - [Teaching]({{ '/#teaching' | relative_url }})

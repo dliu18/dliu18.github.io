@@ -34,6 +34,12 @@ Previously, I worked as a research scientist intern at Meta (Central Applied Sci
 
 {% include news.liquid %}
 
+## Working Papers
+
+<div class="publications">
+{% bibliography --file working-papers %}
+</div>
+
 ## Publications
 
 <div class="publications">

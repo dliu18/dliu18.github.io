@@ -1,4 +1,9 @@
 # Newest first. Dates are display labels; no exact day is required.
+- date: "Nov '26"
+  text: >-
+    Presenting work on ranked-choice voting at INFORMS and data disaggregation at the [Stanford Data-Centric AI Workshop](https://snap.stanford.edu/graphlearning-workshop-2026/).
+    <br>**INFORMS talk:** “Forecasting Instant Runoff Voting from Polls”<br>
+    [Monday, Nov. 2 · 2:15–2:30 p.m. · Moscone South-21](https://paulgoelz.de/informsschedule/#MC53-david_liu@a59y).
 - date: "Jul '26"
   text: "Presented work on polling for ranked-choice voting at EC 2026 (New Directions in Social Choice workshop)."
 - date: "Jul '26"
@@ -8,4 +13,4 @@
 - date: "Jan '26"
   text: "Discussed my work on recommender systems on the [Data Skeptic](https://open.spotify.com/episode/6IsPN6U9tHJMdvA0sdQM8d) podcast."
 - date: "Jan '26"
-  text: "Paper on [power-niche users](https://arxiv.org/abs/2509.17265) accepted to WWW '26."
+  text: "Paper on [power-niche users](https://arxiv.org/abs/2509.17265) accepted to WWW ’26."

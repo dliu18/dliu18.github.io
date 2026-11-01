@@ -1,0 +1,51 @@
+.profile .more-info {
+  overflow-wrap: anywhere;
+}
+
+.publications .abbr abbr {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+@layer components {
+  /* Keep the menu collapsed until the social icons and all links fit. */
+  @media (min-width: 768px) {
+    .navbar-expand-site .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+      width: auto;
+    }
+
+    .navbar-expand-site .navbar-nav {
+      flex-direction: row;
+    }
+
+    .navbar-expand-site .navbar-nav .nav-link {
+      padding: 0.5rem;
+    }
+
+    .navbar-expand-site .navbar-toggler {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar-expand-site .navbar-toggler-main {
+    margin-left: auto;
+  }
+
+  .navbar-expand-site .navbar-collapse-main {
+    text-align: left;
+  }
+
+  .navbar-expand-site .navbar-menu-list {
+    margin-left: 0;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .navbar-expand-site #light-toggle {
+    transform: none;
+  }
+}

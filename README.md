@@ -19,6 +19,7 @@ Open <http://localhost:4000>. The production site is hosted at the domain root, 
 - `_pages/about.md`: biography, homepage publication lists, and teaching.
 - `_data/news.yml`: news entries, newest first, with month/year labels such as `Jun '26`.
 - `_bibliography/papers.bib`: research publications, using al-folio's standard bibliography fields.
+- `_bibliography/working-papers.bib`: working papers displayed above Publications.
 - `_bibliography/public-scholarship.bib`: reports and essays.
 - `_data/socials.yml`: contact and profile links.
 - `_pages/ds4400.md`: teaching detail page.
@@ -28,7 +29,7 @@ Open <http://localhost:4000>. The production site is hosted at the domain root, 
 
 Navigation pages use Jekyll redirects to the homepage sections, Medium, and the CV download. There are no standalone `/publication/` pages.
 
-Theme layouts, styles, and JavaScript come from the pinned `al_folio_core` gem. Two small theme overrides format month/year news and publication badges/buttons; `.al-folio-overrides.yml` tracks their upstream versions. No custom asset pipeline is used. Formatting can be applied with `npx prettier . --write`.
+Theme layouts, styles, and JavaScript come from the pinned `al_folio_core` gem. Three small theme overrides customize navigation, month/year news, and publication entries; `.al-folio-overrides.yml` tracks their upstream versions. Local navigation CSS and JavaScript keep the menu usable on narrow screens and close it after a link is selected. No custom asset pipeline is used. Formatting can be applied with `npx prettier . --write`.
 
 ## Validation and deployment
 
